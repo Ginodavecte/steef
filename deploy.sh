@@ -5,7 +5,7 @@ echo ""
 
 # build new container based on current git version
 echo "Build new project container"
-docker build -t {image_name}:latest .
+docker build -t henk:latest .
 echo ""
 echo ""
 # Take down current container stack
