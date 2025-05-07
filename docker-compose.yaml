@@ -4,5 +4,5 @@ services:
     image: henk:latest
     restart: unless-stopped
     ports:
-      - '443:3666'
+      - '3001:3000'
 
